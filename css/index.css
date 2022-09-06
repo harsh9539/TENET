@@ -58,3 +58,21 @@ color: #FFFFFF;
 .fab{
     color: white;
 }
+
+.mainimg{
+    margin-left: 20px;
+    height: 550px;
+}
+
+.aboutP{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
