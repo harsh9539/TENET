@@ -176,12 +176,7 @@ nav {
   /* background-color: white; */
 }
 
-.heroPic-div {
-  height: 100%;
-  width: 100%;
-  /* border: solid white; */
-  /* background-color: white; */
-}
+
 
 .AboutUs h2 {
   color: var(--purple-shade);
@@ -526,15 +521,11 @@ nav {
   /* linear */
   border: 2px solid #8500ff;
   border-bottom: none;
-  border-left: none;
+  /* border-left: none; */
   background: #0d0b0c;
   /* background: linear-gradient(96.15deg, #e325e1 0%, #4a17f5 100%); */
   box-shadow: -4px -4px 15px rgba(0, 0, 0, 0.25),
     inset -4px -4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
-.register:hover{
-	border: 2px solid #8500ff;
-	border-top: none;
-	border-right: none;
-}
+

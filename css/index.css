@@ -1,78 +1,171 @@
-.eventp{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    /* line-height: 30px; */
-    /* display: flex; */
-    align-items: center;
-    text-align: center;
-    
-    color: #000000;
+.eventp {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
-.eventh5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-font-size: 36px;
-line-height: 54px;
-text-transform: uppercase;
-align-items: center;
-text-align: center;
-color: #000000;
+.eventp:hover{
+    opacity: 1;
+}
+.eventh5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
-.eventImg
-{
-    width: 500px;
+.eventImg {
+  width: auto;
+  height: 300px;
+}
+
+.eventcard {
+  border-radius: 20px;
+  margin-bottom: 60px;
+  height: 370px;
+  width: auto;
+  cursor: pointer;
+}
+.eventcard:hover{
     height: 500px;
 }
-
-.eventcard{
-    border-radius: 20px;
-    margin-bottom: 60px;
-    height: 750px;
-    width:500px;
-}
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.privacy{
-    font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 33px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+.privacy {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: -180px;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
 }
-.privacy:hover{
-    color: whitesmoke;
-    font-size: 20px;;
+.privacy:hover {
+  color: whitesmoke;
+  font-size: 20px;
 }
 
-.fab{
+.fab {
+  color: white;
+}
+
+.mainimg {
+  margin-left: 20px;
+  height: 550px;
+}
+
+.aboutP {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.acha {
+  width: 50px;
+}
+
+.heroPic-div {
+    height: 100%;
+    width: 100%;
+    /* border: solid white; */
+    /* background-color: white; */
+  }
+  @media only screen and (max-width: 768px) {
+    .mainimg{
+        margin-top: -100px;
+        height: 400px;
+      }
+  }
+
+@media only screen and (max-width: 768px) {
+  .heroPic-div {
+    display: block;
+    height: 100px;
+  }
+  .footerClass{
+    display: flex;
+    flex-direction: column;
+  }
+  .logoImg{
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .privacy{
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  .social_icons{
+    margin-left: 30px;
+    width: 150%;
+  }
+  .aboutP{
+    font-size: 20px;
+  }
+  .mainDiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .mainimg{
+    margin-top: -100px;
+    height: 300px;
+  }
+}
+
+
+/* flip wala code  */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
     color: white;
-}
-
-.mainimg{
-    margin-left: 20px;
-    height: 550px;
-}
-
-.aboutP{
-    font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 27px;
-line-height: 48px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-}
+    transform: rotateY(180deg);
+  }
