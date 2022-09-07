@@ -6,7 +6,6 @@
   padding: 0%;
   margin: 0%;
   scroll-behavior: smooth;
-  /* font-family: ; */
 }
 
 body {
@@ -29,6 +28,7 @@ nav {
   border-bottom: 2px solid #8500ff;
   box-shadow: #8500ff 2px;
 }
+
 
 .action {
   padding: 3px 5px !important;
@@ -86,7 +86,6 @@ nav {
 }
 
 .ham {
-  /* position: absolute; */
   font-size: 3.5rem;
 }
 
@@ -150,33 +149,6 @@ nav {
   text-shadow: 10px 15px 20px black;
 }
 
-/* .mainimg{
-	wid
-} */
-.btn-purple {
-  width: 40%;
-  color: white;
-  background-image: linear-gradient(120deg, var(--purple-shade), #340099);
-}
-
-.dummy-div {
-  height: 100%;
-  width: 100%;
-  /* border: solid white; */
-  background-color: white;
-}
-
-.trackImage {
-  height: 100%;
-  width: 100%;
-  background-image: attr(data-image-src);
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-size: cover; */
-  /* background-color: white; */
-}
-
-
 
 .AboutUs h2 {
   color: var(--purple-shade);
@@ -203,36 +175,6 @@ nav {
   padding: 1px;
 }
 
-.dark-bg {
-  background-color: black;
-  color: transparent;
-  border-radius: 3px;
-}
-
-.btn-purple-outline .btn-text {
-  background-image: linear-gradient(90deg, var(--purple-shade), #8500ff);
-  padding: 4%;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  border-radius: 3px;
-  border: 2px solid transparent;
-}
-
-.Prizes h2 {
-  color: var(--purple-shade);
-}
-
-.dummy-prize {
-  margin-top: 2rem;
-  height: 30vh;
-  border-radius: 10px;
-  background-image: linear-gradient(90deg, #9c27b040, #4800c940);
-}
-
-/* footer{
-    background-color: #1a002c42;
-} */
 .footer_sections {
   font-family: "Poppins", sans-serif;
   width: 80vw;
@@ -264,7 +206,6 @@ nav {
 }
 
 .footer_section_1 {
-  /* background-color: #1e0035; */
   border-radius: 10px;
   margin: 10px;
   text-align: center;
@@ -272,15 +213,6 @@ nav {
   padding-left: 0;
   width: 430px;
 }
-/*
-.footer_section_1_content {
-	display: flex;
-	align-items: flex-start;
-} */
-
-/* .footer_section_1_content img {
-	margin-left: 50px;
-} */
 
 .footer_section_1_content p {
   color: #ffffff;
@@ -293,8 +225,6 @@ nav {
 
 .footer_section_2 {
   text-align: right;
-  /* margin-top: 110px; */
-  /* margin-left: 100px; */
 }
 
 .footer_section_2 a {
@@ -345,11 +275,6 @@ nav {
 
   .footer_section_3 img {
     width: 180px;
-  }
-
-  .dummy-div {
-    height: 50vh;
-    width: 100%;
   }
 }
 
@@ -407,125 +332,15 @@ nav {
   background-color: #0f001a;
 }
 
-.registeredEvents {
-  margin-top: 1rem;
-  position: relative;
-  border: 1px 0px 0px 0px white solid;
-  overflow: hidden;
-}
-
-.modal-body::-webkit-scrollbar {
-  width: 10px;
-}
-
-.modal-body::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: #ff00eeae;
-}
-
-.modal-body::-webkit-scrollbar-track {
-  background-color: #0f001a;
-}
-
-.Event {
-  position: relative;
-}
-
-.Event img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.eventSheet {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #0f001abb;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: 0.5s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.registeredEvents .Event:hover .eventSheet {
-  height: 100%;
-}
-
-/* .google-signin-btn {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	background: transparent;
-}
-.google-signin-btn img {
-	width: 100%;
-} */
-
-.google-btn {
-  width: 184px;
-  height: 42px;
-  background-color: #4285f4;
-  border-radius: 2px;
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}
-
-.google-btn .google-icon-wrapper {
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 1px;
-  width: 40px;
-  height: 40px;
-  border-radius: 2px;
-  background-color: #fff;
-}
-
-.google-btn .google-icon {
-  position: absolute;
-  margin-top: 11px;
-  margin-left: 11px;
-  width: 18px;
-  height: 18px;
-}
-
-.google-btn .btn-text {
-  float: right;
-  margin: 11px 11px 0 0;
-  color: #fff;
-  font-size: 14px;
-  letter-spacing: 0.2px;
-  /* font-family: &#34;
-	Roboto&#34;
-	; */
-  font-family: "Roboto";
-}
-
-.google-btn:hover {
-  box-shadow: 0 0 6px #4285f4;
-}
-
-.google-btn:active {
-  background: #1669f2;
-}
 
 .register {
   width: 250px;
   height: 54px;
   color: white;
-  /* linear */
   border: 2px solid #8500ff;
   border-bottom: none;
-  /* border-left: none; */
   background: #0d0b0c;
-  /* background: linear-gradient(96.15deg, #e325e1 0%, #4a17f5 100%); */
   box-shadow: -4px -4px 15px rgba(0, 0, 0, 0.25),
     inset -4px -4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
-

@@ -30,13 +30,13 @@
 .eventcard {
   border-radius: 20px;
   margin-bottom: 60px;
-  height: 370px;
+  height: 520px;
   width: auto;
   cursor: pointer;
 }
-.eventcard:hover{
+/* .eventcard:hover{
     height: 500px;
-}
+} */
 ::-webkit-scrollbar {
   display: none;
 }
